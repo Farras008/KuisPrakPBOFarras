@@ -35,7 +35,7 @@ public class Pelajar extends InputNilai implements Seleksi{
 
     @Override
     public String keterangan() {
-        if(this.hitungNilaiTotal() >= 85) 
+        if(this.hitungNilaiTotal() >= 87.5) 
             return "LULUS\nSelamat kepada " + this.nama + " telah DITERIMA sebagai Peserta Beasiswa Pelajar\n";
         else 
             return "GAGAL\nMohon maaf kepada  " + this.nama + " telah DITOLAK sebagai Peserta Beasiswa Pelajar\n";
